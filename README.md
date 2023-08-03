@@ -36,8 +36,10 @@ See [`./src/index.ts`](./src/index.ts) for main application and each platform de
 
 ### Deno
 
-- Entry: [`./src/cloudflare.ts`](./src/cloudflare.ts)
+- [Deployment](https://h3-on-edge.deno.dev/)
+- Entry: [`./src/deno.ts`](./src/deno.ts)
 - Local dev: `pnpm deno:dev`
+- Local deploy: `pnpm deno:deploy --token <deploy_token> --project <project_id>`
 
 ### Bun
 
@@ -53,7 +55,7 @@ See [`./src/index.ts`](./src/index.ts) for main application and each platform de
 
 ### Netlify Edge
 
-- Entry: ['./src/netlify'](./src/netlify/index.ts)
+- Entry: [`./src/netlify`](./src/netlify/index.ts)
 - Config: [`./netlify.toml`](./netlify.toml)
 - Local dev: `pnpm netlify:dev`
 

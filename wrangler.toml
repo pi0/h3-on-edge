@@ -1,0 +1,3 @@
+name = "h3-on-edge"
+main = "src/cloudflare.ts"
+compatibility_date = "2023-08-01"

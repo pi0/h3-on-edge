@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "h3": "https://esm.sh/h3@1.8.0-rc.2"
+  }
+}

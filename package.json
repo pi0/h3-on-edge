@@ -1,0 +1,27 @@
+{
+  "name": "h3-on-edge",
+  "private": true,
+  "scripts": {
+    "dev": "listhen -w .",
+    "cloudflare:dev": "wrangler dev",
+    "cloudflare:deploy": "wrangler deploy",
+    "deno:dev": "deno run --allow-net src/deno.ts",
+    "bun:dev": "bun src/bun.ts",
+    "lagon:dev": "lagon dev ./src/lagon.ts",
+    "lagon:deploy": "lagon deploy --prod ./src/lagon.ts",
+    "netlify:dev": "netlify dev",
+    "netlify:deploy": "netlify deploy --prod"
+  },
+  "devDependencies": {
+    "@lagon/cli": "^0.7.8",
+    "@types/node": "^20.4.6",
+    "esbuild": "^0.18.17",
+    "h3": "1.8.0-rc.2",
+    "jiti": "^1.19.1",
+    "listhen": "^1.2.2",
+    "netlify-cli": "^15.10.0",
+    "prettier": "^3.0.0",
+    "wrangler": "^3.4.0"
+  },
+  "packageManager": "pnpm@8.6.11"
+}

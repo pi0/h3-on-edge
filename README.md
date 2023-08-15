@@ -7,7 +7,7 @@ This repo contains examples of [unjs/h3](https://github.com/unjs/h3) integration
 With h3 (>= 1.8) you can easily integrate your app with any runtime platform supporting Fetch API ([`Request`](https://developer.mozilla.org/en-US/docs/Web/API/Request) => [`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response)).
 
 ```ts
-import { createApp, eventHandler, toWebHandler } from "h3"; // or "https://esm.sh/h3@1.8.0-rc.2"
+import { createApp, eventHandler, toWebHandler } from "h3"; // or "https://esm.sh/h3@1.8.0"
 
 const app = createApp();
 

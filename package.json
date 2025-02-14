@@ -15,14 +15,14 @@
   },
   "devDependencies": {
     "@lagon/cli": "^0.7.8",
-    "@types/node": "^22.13.1",
+    "@types/node": "^22.13.4",
     "esbuild": "^0.24.2",
-    "h3": "npm:h3-nightly@1.15.0-20250205-182556-301cb17",
+    "h3": "npm:h3-nightly@1.15.0-20250205-193601-ae316c9",
     "jiti": "^2.4.2",
     "listhen": "^1.9.0",
-    "netlify-cli": "^18.0.3",
-    "prettier": "^3.4.2",
-    "wrangler": "^3.107.3"
+    "netlify-cli": "^18.1.0",
+    "prettier": "^3.5.1",
+    "wrangler": "^3.109.1"
   },
-  "packageManager": "pnpm@10.2.0"
+  "packageManager": "pnpm@10.4.0"
 }

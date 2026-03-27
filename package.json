@@ -22,7 +22,7 @@
     "listhen": "^1.9.0",
     "netlify-cli": "^18.0.3",
     "prettier": "^3.4.2",
-    "wrangler": "^3.107.3"
+    "wrangler": "^4.78.0"
   },
   "packageManager": "pnpm@10.2.0"
 }

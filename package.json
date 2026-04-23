@@ -20,7 +20,7 @@
     "h3": "npm:h3-nightly@1.15.0-20250205-182556-301cb17",
     "jiti": "^2.4.2",
     "listhen": "^1.9.0",
-    "netlify-cli": "^18.0.3",
+    "netlify-cli": "^25.4.0",
     "prettier": "^3.4.2",
     "wrangler": "^3.107.3"
   },
